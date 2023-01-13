@@ -4,9 +4,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-//        System.out.println("Please Select your bank\n"+"1. SBI\n"+"2.HDFC");
-//        int c=sc.nextInt();
-//        sc.next();
+       // System.out.println("Please Select your bank\n"+"1. SBI\n"+"2.HDFC");
+       // int c=sc.nextInt();
+      //  sc.next();
         System.out.println("Enter name,balance,pwd");
         String name=sc.nextLine();
         double balance=sc.nextDouble();
@@ -15,9 +15,9 @@ public class Main {
 //        if(c==1) {
            SBI user= new SBI(name, pwd, balance);
 //        }
-//        else {
-//            HDFC user = new HDFC(name,pwd,balance);
-//        }
+//       else {
+//           HDFC user = new HDFC(name,pwd,balance);
+//       }
         System.out.println(user.checkBalance());
         System.out.println(user.addMoney(100000));
         System.out.println("please amount to withdraw and password");
