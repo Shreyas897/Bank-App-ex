@@ -25,7 +25,7 @@ public class Main {
         sc.next();
         String pwd1=sc.nextLine();
         System.out.println(user.withDraw(amt,pwd1));
-        System.out.println(user.calInterest(12));
+        System.out.println(user.calInterest(2));
 
 
 
